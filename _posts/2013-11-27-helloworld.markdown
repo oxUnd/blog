@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hello World"
-date:   2013-11-27 
+date:   2013-11-27
 categories: jekyll new
 ---
 
