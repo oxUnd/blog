@@ -1,6 +1,12 @@
 name: t.zzis.me
 markdown: redcarpet
+markdown_ext: markdown
+
 pygments: true
+encoding: utf-8
 
 source: .
 destination: ../mysite
+
+redcarpet:
+    extensions: ['fenced_code_blocks']
