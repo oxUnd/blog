@@ -1,0 +1,6 @@
+name: t.zzis.me
+markdown: redcarpet
+pygments: true
+
+source: .
+destination: ../mysite
