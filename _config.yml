@@ -17,7 +17,7 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 
 
-title: t.zzis.me
+title: orrafy
 description: ...
 author:
   name: fansekey
