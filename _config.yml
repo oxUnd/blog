@@ -1,52 +1,15 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+name: ":)"
+markdown: redcarpet
+highlighter: 'pygments'
+permalink: :title
+exclude: [README.md, LICENSE, Makefile]
+
+# Information for the Atom feed
+gereksiz:
+   author: "xiangshouding"
+   email: "fansekey@gmail.com"
 
 markdown: redcarpet
 markdown_ext: markdown,md,mdk
-
-pygments: true
-encoding: utf-8
-
-source: .
-destination: ../mysite
-
 redcarpet:
     extensions: ['fenced_code_blocks']
-
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
-
-
-title: orrafy
-description: ...
-author:
-  name: fansekey
-  email: fansekey#@#gmail.com
-  github: xiangshouding
-  twitter: shouding
-#  pinterest: asd123
-#  linkedin: asd123
-#  bio: Your stylish, minimalist theme!
-  email_md5: 7508a7c691f667937f675264c4ab9594
-
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
-
-BASE_PATH: http://www.orrafy.com
-
-# All links will be namespaced by BASE_PATH if defined.
-# Links in your website should always be prefixed with {{ site.BASE_PATH }}
-# Do not put a "/" at the end of the url.
-#
-# CNAME (http://yourcustomdomain.com)
-#   DO NOT SET BASE_PATH JUST LEAVE IT BLANK 
-#   (urls will be prefixed with "/" and work relatively)
-#
-# GitHub Pages (http://username.github.io)
-#   DO NOT SET BASE_PATH JUST LEAVE IT BLANK 
-#   (urls will be prefixed with "/" and work relatively)
-#
-# GitHub Project Pages (http://username.github.io/project-name)
-#  A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
-#  REQUIRED! Set BASE_PATH to "http://username.github.io/project-name"
