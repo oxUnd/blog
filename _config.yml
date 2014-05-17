@@ -13,10 +13,7 @@ markdown: redcarpet
 markdown_ext: markdown,md,mdk
 redcarpet:
     extensions: ['fenced_code_blocks']
-
-
-
-
+    
 #########
 source: .
 destination: ../mysite
