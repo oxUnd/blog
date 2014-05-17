@@ -14,6 +14,10 @@ markdown_ext: markdown,md,mdk
 redcarpet:
     extensions: ['fenced_code_blocks']
     
+# sitemap
+gems:
+  - jekyll-sitemap
+  
 #########
 source: .
 destination: ../mysite
